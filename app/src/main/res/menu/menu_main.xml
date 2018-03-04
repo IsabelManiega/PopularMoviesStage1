@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_item_sort_parameters"
+        android:title="@string/sort_by"
+        app:showAsAction="ifRoom|withText">
+        <menu>
+            <item android:orderInCategory="1" android:id="@+id/sort_by_popular" android:title="@string/sort_by_popular"></item>
+            <item android:orderInCategory="2" android:id="@+id/sort_by_rating" android:title="@string/sort_by_rating"></item>
+        </menu>
+    </item>
+</menu>
